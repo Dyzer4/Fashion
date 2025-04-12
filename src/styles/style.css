@@ -89,3 +89,17 @@ main {
 main img {
     margin: 68px 81px 0 0;
 }
+
+/* Logomarks */
+
+.logomarks {
+    background-color: var(--primary-color);
+    margin-top: 63px;
+    border: 1px solid;
+    padding: 58px 171px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* arrivals */
