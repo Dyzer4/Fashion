@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Poppins Black";
+    src: url(/Fashion/src/assets/fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(/Fashion/src/assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url(/Fashion/src/assets/fonts/Poppins-Medium.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #E6C744;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #c2c8da;
+
+    --font-black: 'Poppins Black';
+    --font-regular: 'Poppins Regular';
+    --font-medium: 'Poppins Medium';
+    --headline2: 48px;
+    --headline3: 32px;
+
+}
+
+body {
+    font-family: 'Poppins Regular';
+}
+
