@@ -95,11 +95,51 @@ main img {
 .logomarks {
     background-color: var(--primary-color);
     margin-top: 63px;
-    border: 1px solid;
     padding: 58px 171px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* arrivals */
+/* arrivals and young */
+
+.arrivals, .young {
+    margin: 69px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 101px;
+}
+
+.arrivals h2 {
+    text-transform: uppercase;
+    font-family: var(--font-black);
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+.span-arrivals-young {
+    background-color: var(--primary-color);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-titles-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-title {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
