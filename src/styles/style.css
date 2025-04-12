@@ -1,7 +1,8 @@
 @import url(./global.css);
 
+/* Header */
+
 header{
-    border: 1px solid;
     margin: 46px 100px 56px 100px;
     display: flex;
     justify-content: space-between;
@@ -33,4 +34,58 @@ header nav button {
     color: var(--white);
     border-radius: 7px;
     font-size: 24px;
+}
+
+/* main */
+
+main {
+    margin: 0px 100px;
+    border-radius: 59px;
+    background-color: #f4f6f5;
+    display: flex;
+}
+
+.hero {
+    margin: 77px 0px 90px 119px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.hero h1 {
+    font-family: var(--font-black);
+    font-size: 96px;
+    text-transform: uppercase;
+    line-height: 120px;
+    margin-bottom: 40px;
+}
+
+.span-hero-1 {
+    background-color: var(--white);
+}
+
+.span-hero-2 {
+    background-color: var(--primary-color);
+}
+
+.hero p {
+    width: 606px;
+    font-size: 32px;
+    letter-spacing: -2px;
+    margin-bottom: 32px;
+}
+
+.hero button {
+    width: 221px;
+    height: 82px;
+    font-family: var(--font-medium);
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 7px;
+    font-size: 30px;
+}
+
+main img {
+    margin: 68px 81px 0 0;
 }
