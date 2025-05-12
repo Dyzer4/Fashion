@@ -143,3 +143,11 @@ main img {
     flex-direction: column;
     gap: 7px;
 }
+
+.young .cards .card-content img {
+    width: 838px;
+}
+
+.young .cards .card-content .card-titles-content img {
+    width:auto;
+} 
